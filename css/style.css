@@ -91,7 +91,7 @@ nav ul {
 .opciones-menu a {
     color: #f2eeeb;
     text-decoration: none;
-    font-family: 'Chillax-SemiBold', sans-serif;
+    font-family: 'Chillax-Medium', sans-serif;
     font-size: 18px;
 }
 .opciones-menu a:hover {
@@ -153,7 +153,7 @@ nav ul {
 }
     h1 {
     font-size: 5.1rem;
-    font-family: 'Technor-SemiBold',sans-serif;
+    font-family: 'Technor-Bold',sans-serif;
     margin-bottom: 0.5rem;
     color:#f4efeb;
 }
