@@ -47,16 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.querySelector('.next');
   const prevBtn = document.querySelector('.prev');
 
-
-  if (nextBtn) {
-      nextBtn.addEventListener('click', nextSlide);
-    }
-    
-  if (prevBtn) {
-      prevBtn.addEventListener('click', prevSlide);
-    }
-
-
   function showSlide(index) {
     slides.forEach(slide => slide.classList.remove('active'));
     if (slides[index]) {
