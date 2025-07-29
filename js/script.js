@@ -40,30 +40,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
         elementos.forEach(el => observer.observe(el));
     });
+  let currentIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+  const totalSlides = slides.length;
 
-let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
-const totalSlides = slides.length;
+  const nextBtn = document.querySelector('.next');
+  const prevBtn = document.querySelector('.prev');
 
-const nextBtn = document.querySelector('.next');
-const prevBtn = document.querySelector('.prev');
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    if (slides[index]) {
+      slides[index].classList.add('active');
+    }
+  }
 
-function showSlide(index) {
-  slides.forEach(slide => slide.classList.remove('active'));
-  slides[index].classList.add('active');
-}
-
-function nextSlide() {
-  currentIndex = (currentIndex + 1) % totalSlides;
-  showSlide(currentIndex);
-}
-
-function prevSlide() {
-  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-  showSlide(currentIndex);
-}
-
- setInterval(nextSlide, 10000);
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    showSlide(currentIndex);
+  }
 
 // Botones
 nextBtn.addEventListener('click', nextSlide);
