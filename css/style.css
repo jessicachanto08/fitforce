@@ -745,7 +745,7 @@ footer .opciones-menu {
  transition: color 1s;
 }
 /* estrellas */
-/* From Uiverse.io by andrew-demchenk0 */ 
+
 .rating:not(:checked) > input {
   position: absolute;
   appearance: none;
@@ -779,10 +779,6 @@ footer .opciones-menu {
   color: #ffa723;
 }
 
-
-
-
-/* Video entrenadores */
 
 /* MEDIA QUERYS */
 
