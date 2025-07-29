@@ -745,7 +745,6 @@ footer .opciones-menu {
  transition: color 1s;
 }
 /* estrellas */
-
 .rating:not(:checked) > input {
   position: absolute;
   appearance: none;
@@ -778,7 +777,6 @@ footer .opciones-menu {
 .rating > input:checked ~ label {
   color: #ffa723;
 }
-
 
 /* MEDIA QUERYS */
 
