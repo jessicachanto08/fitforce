@@ -63,10 +63,10 @@ function prevSlide() {
   showSlide(currentIndex);
 }
 // Botones
-nextBtn.addEventListener('click', nextSlide);
-prevBtn.addEventListener('click', prevSlide);
-// Estas lineas son para cambiar 
+if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+if (prevBtn) prevBtn.addEventListener('click', prevSlide);
 
+// Estas lineas son para ir cambiando la imagen
 function updateSliderImages() {
   const slides = document.querySelectorAll('.slide img');
 
