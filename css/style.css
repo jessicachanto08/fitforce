@@ -8,9 +8,8 @@
 }
 @font-face {
     font-family: 'Chillax-SemiBold';
-    src: url(../fonts/chillax/Chillax-SemiBold.otf);
+    src: url('/fonts/chillax/Chillax-SemiBold.otf');
 }
-
 @font-face {
     font-family: 'Technor-Bold';
     src: url(../fonts/technor/Technor-Bold.otf);
