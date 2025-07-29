@@ -58,7 +58,10 @@ document.addEventListener('DOMContentLoaded', () => {
     currentIndex = (currentIndex + 1) % totalSlides;
     showSlide(currentIndex);
   }
-
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+  showSlide(currentIndex);
+}
 // Botones
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
