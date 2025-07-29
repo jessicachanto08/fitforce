@@ -601,9 +601,7 @@ footer .opciones-menu {
   gap: 1rem;
   max-width: 90rem;
   margin: auto;
-}
-.calendario-info p {
-marging-bottom: 1rem;
+  margin-top: 1rem;
 }
 .day {
   font-family: 'Chillax-Medium', sans-serif;
