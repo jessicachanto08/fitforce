@@ -1,34 +1,42 @@
 @font-face {
     font-family: 'Chillax-Medium';
     src: url(../fonts/chillax/Chillax-Medium.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Chillax-Regular';
     src: url(../fonts/chillax/Chillax-Regular.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Chillax-SemiBold';
      src: url(../fonts/chillax/Chillax-SemiBold.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Technor-Bold';
     src: url(../fonts/technor/Technor-Bold.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Technor-Medium';
     src: url(../fonts/technor/Technor-Medium.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Technor-Regular';
     src: url(../fonts/technor/Technor-Regular.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Technor-SemiBold';
     src: url(../fonts/technor/Technor-SemiBold.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Chillax-Bold';
     src: url(../fonts/chillax/Chillax-Bold.otf);
+    font-display: swap;
 }
 * {
     margin: 0;
